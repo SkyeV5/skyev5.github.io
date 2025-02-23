@@ -1,0 +1,261 @@
+/* This game's layout coding is by ~tessisamess (c) 2013 */
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://dl.dropboxusercontent.com/s/qcx9r4749yvgsbt/OpenSans-Regular.ttf);
+}
+ 
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://dl.dropboxusercontent.com/s/6ljlsb3hu1z03yc/OpenSans-SemiBold.ttf);
+}
+
+body {
+    background: #222;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+
+textarea {
+    border: 2px solid #ddd;
+    width: 99%;
+    min-height: 200px;
+    max-height: 400px;
+    font-size: 11px;
+    font-family: Open Sans;
+    color: #555;
+    background: #f9f9f9;
+    padding: 5px;
+    margin: 8px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    background: url(http://i.imgur.com/f3y7wTy.png)left center no-repeat;
+    padding-left: 19px;
+}
+
+b {
+    font-family: Open Sans;
+}
+
+#content {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 60px 20px 20px 20px;
+    color: #252525;
+    text-align: justify;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+
+#topbar {
+    height: 40px;
+    background: #000;
+    line-height: 40px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #ddd;
+    padding: 0 10px;
+    border-bottom: 1px solid #333;
+}
+
+#topbar a, #topbar .progressbar {
+    padding: 0 10px;
+    display: inline-block;
+    margin: 0;
+    border-left: 1px solid #252525;
+    border-right: 1px solid #333;
+    text-align: center;
+    text-decoration: none;
+    color: #bbb;
+    height: 37px;
+    line-height: 37px;
+}
+
+#topbar a:hover {
+    color: #ddd;
+    background: #252525;
+    border-left: 1px solid #333;
+    border-right: 1px solid #444;
+}
+
+#gname {
+    display: inline;
+    font-weight: 600;
+    font-family: Open Sans;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#cred {
+    width: 20px !important;
+}
+
+#info {
+    margin-left: 320px;
+    line-height: 190%;
+}
+
+.title {
+    display: block;
+    font-size: 19px;
+    padding: 7px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-family: Open Sans;
+    font-weight: 600;
+}
+
+.title img {
+    height: 19px;
+    margin-bottom: -3px;
+    opacity: 0.6;
+}
+
+.details {
+    border-left: 3px solid #ddd;
+    padding-left: 5px;
+    color: #444;
+    margin: 5px auto 15px auto;
+    width: 90%;
+}
+
+#button {
+    text-align: center;
+}
+
+#button a {
+    text-align: center;
+    padding: 4px 0;
+    text-decoration: none;
+    color: #444;
+    display: inline-block;
+    width: 180px;
+    margin: 5px;
+    background: #eee;
+    border: 1px solid #ddd;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Open Sans;
+}
+
+#button a:hover {
+    background: #ddd;
+    border: 1px solid #ccc;
+}
+
+#sidebar {
+    position: fixed;
+    z-index: 50;
+    width: 300px;
+    float: left;
+    background: #eee;
+    font-family: Open Sans;
+}
+
+.sidetitle {
+    padding: 6px 10px;
+    background: #666;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#sidebar img {
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+#sidebar a {
+    padding: 10px;
+    height: 32px;
+    line-height: 32px;
+    display: block;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    color: #444;
+}
+
+#sidebar a:hover {
+    background: #e5e5e5;
+    border-bottom: 1px solid #d5d5d5;
+    color: #000;
+}
+
+#castwrap {
+    width: 684px;
+    margin: 0 auto 30px auto;
+    font-size: 11px;
+}
+
+.cast {
+    display: inline-block;
+    background: #eee;
+    padding: 5px;
+    width: 210px;
+    margin: 0 3px 9px 3px;
+    line-height: 140%;
+    text-align: left;
+}
+
+.castimg {
+    float: left;
+    width: 70px !important;
+    margin-top: 0 !important;
+    opacity: 1 !important;
+}
+
+.cast img {
+    margin-right: 5px;
+    width: 14px;
+    margin-top: 2px;
+    opacity: 0.7;
+}
+
+.name {
+    font-family: Open Sans;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.cast a {
+    color: #000;
+    text-decoration: none;
+}
+
+.cast a:hover {
+    color: #777;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+/* make a general span or something just for IDs so it can be used inline too */
