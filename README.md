@@ -1,1 +1,1 @@
-<a href="StellaCarina/index.html">Stella Carina</a>
+<a href="#">Index</a>
